@@ -252,11 +252,11 @@ header.sticky{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-bottom: 1rem;
 }
 .row h3{
 	font-size: 25px;
 	font-weight: 700;
+	margin-bottom: 2px;
 }
 .row h6{
 	color: var(--main-color);
@@ -408,6 +408,16 @@ form textarea{
 	section{
 		padding: 130px 3% 60px;
 	}
+	.line-container{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 0;
+		height: 100%;
+		text-align: center;
+		overflow: visible;
+		z-index: -1;
+	}
 }
 
 @media (max-width: 970px){
@@ -420,16 +430,27 @@ form textarea{
 		padding: 70px 3% 60px;
 	}
 	.home{
-		height: 85vh;
+		height: 100vh;
 	}
 	.about{
 		grid-template-columns: 1fr;
+		margin-bottom: 400px;
 	}
 	.about-img{
 		text-align: center;
 	}
 	.contact{
 		grid-template-columns: 1fr;
+	}
+	.line-container{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 0;
+		height: 100%;
+		text-align: center;
+		overflow: visible;
+		z-index: -1;
 	}
 }
 
@@ -459,5 +480,16 @@ form textarea{
 	:root{
 		--h1-font: 3.7rem;
 	  --h2-font: 2.7rem;
+	}
+	.line-container{
+		opacity: 0;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 0;
+		height: 100%;
+		text-align: center;
+		overflow: visible;
+		z-index: -3;
 	}
 }
