@@ -228,7 +228,9 @@ header.sticky{
 .box:hover h3{
 	color: var(--main-color);
 }
-
+a{
+	color: #fff;
+}
 .portfolio-content{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
@@ -244,10 +246,30 @@ header.sticky{
 }
 .row{
 	padding: 25px;
-	background: #12141c;
 	border-radius: 0.5rem;
-	transition: all .40s ease;
+	background: transparent;
+  	background-image: url('../img/hover-bg.png');
+  	background-repeat: repeat-x;
+  	background-position: 0 -100%;
+  	transition: 1.5s ease;
 }
+	.row:hover{
+		background-position: bottom;
+	}
+	  
+	  .row-text:nth-child(1):hover{
+		filter: hue-rotate(160deg);
+		color: #020312;
+	  }
+	  
+	  .row:nth-child(11){
+		filter: hue-rotate(200deg);
+	  }
+	  
+	  .row:nth-child(12){
+		filter: hue-rotate(260deg);
+	  }
+
 .main-row{
 	display: flex;
 	align-items: center;
