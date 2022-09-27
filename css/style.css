@@ -251,10 +251,11 @@ a{
   	background-image: url('../img/hover-bg.png');
   	background-repeat: repeat-x;
   	background-position: 0 -100%;
-  	transition: 1.5s ease;
+  	transition: 1.7s ease;
 }
 	.row:hover{
 		background-position: bottom;
+		color: #020312;
 	}
 	  
 	  .row-text:nth-child(1):hover{
