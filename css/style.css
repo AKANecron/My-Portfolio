@@ -18,7 +18,7 @@
 }
 
 #dhruv-logo{
-	margin-left: 490px;
+	margin-left: 550px;
 }
 
 .logo-1{
@@ -26,6 +26,9 @@
 	position: absolute;
 	bottom: -20px;
 	opacity: 0;
+	font-family: 'Mate SC', serif;
+	font-weight: bold;
+	letter-spacing: 5px;
 }
 
 .logo-1.active{
@@ -59,7 +62,7 @@ svg{
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Mate SC', serif;
 	list-style: none;
 	text-decoration: none;
 	scroll-behavior: smooth;
@@ -635,17 +638,17 @@ form textarea{
 	.logo-header{
 		position: absolute;
 		display: flex;
-		top: 50%;
-		left: 5%;
+		top: 45%;
+		left: 2%;
 		transform: translate(-50%, -50%);
 		color: #fff;
-		font-size: 78px;
+		font-size: 60px;
 	}
 	#dhruv-logo{
 		margin-left: 0px;
-		margin-bottom: -100px;
+		margin-bottom: -70px;
 	}
 	#logo-dhruv{
-		left: 58px;
+		left: 5px;
 	}
 }
