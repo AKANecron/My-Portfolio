@@ -74,3 +74,9 @@ function openResume(){
 sr.reveal('.home-text',{delay:200, origin:'bottom'})
 
 sr.reveal('.about,.services,.portfolio,.contact',{delay:250, origin:'bottom'})
+
+
+function alert(){  
+		alert("Thank You for you message!. I will reach out to you soon.");
+		document.getElementById("myForm").reset();
+};

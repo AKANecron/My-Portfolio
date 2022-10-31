@@ -12,13 +12,14 @@
 .logo-header{
 	position: absolute;
 	top: 55%;
-	left: 19%;
+	left: 16%;
 	transform: translate(-50%, -50%);
 	font-size: 150px;
 }
 
 #dhruv-logo{
-	margin-left: 550px;
+		margin-left: 0px;
+		margin-bottom: -140px;
 }
 
 .logo-1{
@@ -26,8 +27,9 @@
 	position: absolute;
 	bottom: -20px;
 	opacity: 0;
-	font-family: 'Mate SC', serif;
-	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+	font-weight: normal;
+	font-size: 140px;
 	letter-spacing: 5px;
 }
 
@@ -476,15 +478,17 @@ form textarea{
 	.logo-header{
 		position: absolute;
 		top: 55%;
-		left: 19%;
+		left: 3%;
 		transform: translate(-50%, -50%);
 		color: #fff;
 		font-size: 100px;
 	}
 	#dhruv-logo{
-		margin-left: 350px;
+		margin-left: 0px;
 	}
-
+	.logo-1{
+		font-size: 130px;
+	}
 	header{
 		padding: 16px 3%;
 	}
@@ -511,13 +515,15 @@ form textarea{
 		position: absolute;
 		display: flex;
 		top: 55%;
-		left: 14%;
+		left: 2%;
 		transform: translate(-50%, -50%);
 		color: #fff;
-		font-size: 90px;
 	}
 	#dhruv-logo{
-		margin-left: 300px;
+		margin-left: 0px;
+	}
+	.logo-1{
+		font-size: 130px;
 	}
 	:root{
 		--h1-font: 4.2rem;
@@ -556,14 +562,16 @@ form textarea{
 	.logo-header{
 		position: absolute;
 		display: flex;
-		top: 55%;
-		left: 10%;
+		top: 50%;
+		left: 2%;
 		transform: translate(-50%, -50%);
 		color: #fff;
-		font-size: 85px;
 	}
 	#dhruv-logo{
-		margin-left: 280px;
+		margin-left: 0px;
+	}
+	.logo-1{
+		font-size: 120px;
 	}
 	#menu-icon{
 		display: block;
@@ -637,18 +645,24 @@ form textarea{
 @media (max-width: 390px){
 	.logo-header{
 		position: absolute;
-		display: flex;
-		top: 45%;
-		left: 2%;
+		top: 43%;
+		left: 1%;
 		transform: translate(-50%, -50%);
-		color: #fff;
-		font-size: 60px;
 	}
+	
 	#dhruv-logo{
-		margin-left: 0px;
-		margin-bottom: -70px;
+			margin-left: 0px;
+			margin-bottom: -87px;
 	}
-	#logo-dhruv{
-		left: 5px;
+	
+	.logo-1{
+		color: #fff;
+		position: absolute;
+		bottom: -20px;
+		opacity: 0;
+		font-family: 'Roboto Slab', serif;
+		font-weight: normal;
+		font-size: 70px;
+		letter-spacing: 5px;
 	}
 }
