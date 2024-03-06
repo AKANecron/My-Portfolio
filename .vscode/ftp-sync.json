@@ -1,8 +1,8 @@
 {
-    "remotePath": "/home2/kakadidh/public_html/Portfolio/",
-    "host": "dev.fast.sheridanc.on.ca",
-    "username": "kakadidh",
-    "password": "3!qT*hmTAtm",
+    "remotePath": "",
+    "host": "",
+    "username": "",
+    "password": "",
     "port": 22,
     "secure": true,
     "protocol": "sftp",
